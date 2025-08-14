@@ -1,0 +1,118 @@
+.TraderListSection{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.traderListSectionWrapper{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.traderListSectionCardContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.traderListCard{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    border-radius: 20px;
+    margin: 15px;
+    background-color: rgb(18, 18, 18);
+    height: 250px;
+    padding: 15px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.traderListCard:hover{
+    margin-top:-10px ;
+}
+.traderProfileContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.traderListProfile{
+    width: 42%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.traderListProfilePicture{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.traderListProfileName{
+    text-align: left;
+}
+.traderListProfileLastname{
+    font-size: .7rem;
+    color: rgb(128, 128, 128);
+}
+.copyBtn{
+    padding: 2px 15px 2px 15px;
+    border-radius: 15px;
+    background-color: rgb(86, 209, 135);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+.copyBtn p{
+    color: black;
+    text-transform: lowercase ;
+    font-family: 'Poppins';
+    font-size: .8rem;
+    transition: all 0.2s ease-in-out;
+}
+.copyBtn:hover{
+    background-color: rgb(3, 221, 3);
+}
+.copyBtn:hover p{
+    color: white;
+}
+.traderPerformanceContainer{
+    text-align: left;
+    width: 100%;
+}
+.traderPerformanceContainer h3{
+    color: rgb(86, 209, 135);
+    font-size: 3rem;
+}
+.traderPerformanceContainer small{
+    color: rgb(128, 128, 128);
+}
+.traderListCardFooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.traderFollowerContainer p{
+    font-size: .9rem;
+    color: rgb(128, 128, 128);
+}
+@media (max-width: 990px) and (min-width: 768px) {
+    .traderListCard{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .traderListCard {
+            width: 100%;
+            margin: 15px 0px;
+        }
+        .traderListSectionWrapper{
+            width: 100%;
+        }
+}

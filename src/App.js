@@ -53,7 +53,7 @@ function App() {
     }, [])
 
   
-    const route = 'https://axoncopy-backend.vercel.app'
+    const route = 'https://copixlab-backend.vercel.app'
     // const route = 'http://localhost:5000'
   
   return (

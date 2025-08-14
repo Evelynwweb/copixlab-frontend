@@ -56,14 +56,14 @@ const Admindashboard = ({ route }) => {
             title: `Acoount credited with  $${res.funded} USD`
         })
         const data = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `support@axoncopy.com`,
+                'reply_to': `copixlab@gmail.com`,
                 'subject':`${res.subject}`
             }
           };
@@ -79,14 +79,14 @@ const Admindashboard = ({ route }) => {
       }
       else {
         const uplineData = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `${res.uplineName}`,
                 'email': `${res.uplineEmail}`,
                 'message': `${res.uplineMessage}`,
-                'reply_to': `support@axoncopy.com`,
+                'reply_to': `copixlab@gmail.com`,
                 'subject':`${res.uplineSubject}`
             }
         };
@@ -137,14 +137,14 @@ const Admindashboard = ({ route }) => {
 
     if (awaitedData.amount !== undefined) {
        const data = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `${name}`,
                 'email': `${activeEmail}`,
                 'message': `Congratulations! your withdrawal $${awaitedData.amount} has been approved. confirm withdrawal of $${awaitedData.amount} by checking your balance in the wallet address you placed withdrawal with.`,
-                'reply_to': `support@axoncopy.com`,
+                'reply_to': `copixlab@gmail.com`,
                 'subject':`successful withdrawal`
             }
       };

@@ -56,24 +56,24 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
               })
             
             const data = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `support@axoncopy.com`,
+                'reply_to': `copixlab@gmail.com`,
                 'subject':`${res.subject}`
             }
             };
             const adminData = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `Bro`,
-                'email': `support@axoncopy.com`,
+                'email': `copixlab@gmail.com`,
                 'message': `${res.adminMessage}`,
                 'reply_to': `${res.email}`,
                 'subject':`${res.subject}`
@@ -107,14 +107,14 @@ const WithdrawReview = ({Active,withdrawAmount,closepage,route,funded}) => {
                 title:  `${res.withdrawMessage}`
               })
             const data = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.withdrawMessage}`,
-                'reply_to': `support@axoncopy.com`,
+                'reply_to': `copixlab@gmail.com`,
                 'subject':`${res.subject}`
             }
             };

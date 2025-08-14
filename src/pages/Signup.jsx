@@ -128,9 +128,9 @@ useEffect(() => {
     localStorage.setItem('token', result.token);
 
      const userData = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_l5wk75w',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_05vxmxu',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
               'name': `${result.name}`,
               'email': `${result.email}`,
@@ -138,14 +138,14 @@ useEffect(() => {
           };
 
           const adminData = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `Bro`,
-                'email': `support@axoncopy.com`,
+                'email': `copixlab@gmail.com`,
                 'message': `${result.message}`,
-                'reply_to': `support@axoncopy.com`,
+                'reply_to': `copixlab@gmail.com`,
                 'subject':`${result.adminSubject}`
             }
         };
@@ -172,14 +172,14 @@ useEffect(() => {
           }
           else {
             const referringUserData = {
-            service_id: 'service_05ydpk7',
-            template_id: 'template_q60eb2r',
-            user_id: 'WuHb1qS5qBjeGj7ka',
+            service_id: 'service_aa7neyl',
+            template_id: 'template_brx0r3f',
+            user_id: '_wYCr4-w43qFmNw9O',
             template_params: {
                 'name': `${result.referringUserName}`,
                 'email': `${result.referringUserEmail}`,
                 'message': `${result.referringUserMessage}`,
-                'reply_to': `support@axoncopy.com`,
+                'reply_to': `copixlab@gmail.com`,
                 'subject':`${result.subject}`
             }
             };

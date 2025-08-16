@@ -6,55 +6,61 @@ const VerifyEmail = ({route}) => {
     const [loader,setLoader] = useState(true)
     const params = useParams()
     const navigate = useNavigate()
+    const [validUrl, setValidUrl] = useState()
     useEffect(() => {
                     setLoader(true)
-                    const referUser = async()=>{
-                    try {
-                        const url = `${route}/${params.id}/refer`
-                        const req = await fetch(url,{
-                            headers:{
-                                'Content-Type':'application/json'
-                            }
-                        })
-                        const res = await req.json()
-                        setLoader(false)
-                        if (res.status === 400) {
-                            navigate('/signup')
-                        }
-                        else {
-                            navigate('/signup')
-                            localStorage.setItem('referedUser',res.referredUser)
-                        }
-                    } catch (error) {
-                    console.log(error)
-                    setLoader(false)
-                    navigate('/signup')
-                        }
-            }
-            // const verifyEmailUrl = async()=>{
-            //     try {
-            //         const url = `${route}/${params.id}/verify/${params.token}`
-            //         const req = await fetch(url,{
-            //             headers:{
-            //                 'Content-Type':'application/json'
+            //         const referUser = async()=>{
+            //         try {
+            //             const url = `${route}/${params.id}/refer`
+            //             const req = await fetch(url,{
+            //                 headers:{
+            //                     'Content-Type':'application/json'
+            //                 }
+            //             })
+            //             const res = await req.json()
+            //             setLoader(false)
+            //             if (res.status === 400) {
+            //                 navigate('/signup')
             //             }
-            //         })
-            //         const res = await req.json()
-            //         console.log(res)
-            //         setValiUrl(true)
-            //     } catch (error) {
+            //             else {
+            //                 navigate('/signup')
+            //                 localStorage.setItem('referedUser',res.referredUser)
+            //             }
+            //         } catch (error) {
             //         console.log(error)
-            //         setValiUrl(false)
-            //     }
+            //         setLoader(false)
+            //         navigate('/signup')
+            //             }
             // }
-            referUser()
+            const verifyEmailUrl = async()=>{
+                try {
+                    const url = `${route}/${params.id}/verify/${params.token}`
+                    const req = await fetch(url,{
+                        headers:{
+                            'Content-Type':'application/json'
+                        }
+                    })
+                    const res = await req.json()
+                    console.log(res)
+                    setLoader(false)
+                    setValidUrl(true)
+                } catch (error) {
+                    console.log(error)
+                    setValidUrl(false)
+                    setLoader(false)
+                }
+            }
+            verifyEmailUrl()
     },[params])
     return (
     <>
         {
             
            loader && <Loader />
-    }
+            }
+            {
+                validUrl ? <p>email verified</p> : <p>email unverified</p>
+            }
     </>    
   )
 }

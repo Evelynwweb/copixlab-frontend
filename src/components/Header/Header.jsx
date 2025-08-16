@@ -30,7 +30,6 @@ const Header = () => {
         { name: "markets", path: "/markets", dropdown: ["forex","futures", "indices", "stocks"] },
         { name: "analytics", path: "/faq", dropdown: ["news", "technical-analysis","heatmaps","watchlists"] },
         { name: "company", path: "/policy", dropdown: ["privacy-policy","team"] },
-        { name: "trading", path: "/buy-crypto", dropdown: ["buy-crypto", "copytrade"] }
     ];
 
     return (
@@ -122,16 +121,6 @@ const Header = () => {
                                 <li className="element"><Link to='/privacy-policy'>privacy policy</Link></li>
                                 <li className="element"><Link to='/team'>team</Link></li>
                                 <li className="element"><Link to='/faq'>faq</Link></li>
-                            </div>
-                        </div>
-                        <div className="market-dropdown" >
-                            <p onClick={()=> setShowTrading(!showTrading)}>trading</p>
-                            <div onClick={()=> setShowTrading(!showTrading)} className={`market-dropdown-svg-container ${showTrading && 'rotate'}` }>
-                                <RiArrowDownSLine />
-                            </div>
-                            <div className={`trading-links ${showTrading && 'show-markets'}`}>
-                                <li className="element"><Link to='/buy-crypto'>buy crypto</Link></li>
-                                <li className="element"><Link to='/copytrade'>copytrade</Link></li>
                             </div>
                         </div>
                         <li className="element"><Link to='/login'>login</Link></li>

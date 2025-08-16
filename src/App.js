@@ -39,6 +39,7 @@ import UserdashboardKyc from './components/userdashboardKyc/UserdashboardKyc';
 import UserdashboardLiveTrading from './components/userdashboardLiveTrading/UserdashboardLiveTrading';
 import UserdashboardRanking from './components/userdashboardRanking/UserdashboardRanking';
 import UserdashboardTraders from './components/userdashboardTraders/UserdashboardTraders';
+import Verify from './pages/verifyPage/Verify';
 
 function App() {
    useEffect(() => {
@@ -98,7 +99,7 @@ function App() {
             <Route path='/about' element={<Aboutpage />}/>
             <Route path='/faq' element={<Faq />}/>
             <Route path='/privacy-policy' element={<Policy />}/>
-            <Route path='/buy-crypto' element={<Buybitcoin />}/>
+            {/* <Route path='/buy-crypto' element={<Buybitcoin />}/> */}
             <Route path='/forex' element={<Forex />}/>
             <Route path='/futures' element={<Futures />}/>
             <Route path='/indices' element={<Indices />}/>
@@ -107,13 +108,15 @@ function App() {
             <Route path='/technical-analysis' element={<TechnicalAnalysisPage />}/>
             <Route path='/heatmaps' element={<Heatmaps />}/>
             <Route path='/watchlists' element={<Watchlist />}/>
-            <Route path='/copytrade' element={<CopytradePage />}/>
+            {/* <Route path='/copytrade' element={<CopytradePage />}/> */}
             <Route path='/team' element={<Team />}/>
             <Route path='/usercopytrade' element={<UserdashboardCopytrade route={route} />}/>
             <Route path='/traders' element={<UserdashboardTraders route={route} />}/>
             <Route path='/live-trading' element={<UserdashboardLiveTrading route={route} />}/>
             <Route path='/ranking' element={<UserdashboardRanking route={route}/>}/>
             <Route path='/kyc' element={<UserdashboardKyc route={route} />}/>
+            <Route path='/verify' element={<Verify />}/>
+            <Route path='/user/:id' element={<VerifyEmail route={route} />}/>
           </Routes>
         </motion.div>
       </Router>

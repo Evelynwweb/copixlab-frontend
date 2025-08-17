@@ -147,7 +147,7 @@
     align-self: flex-start;
 }
 .main-balance{
-    color: #09e359;
+    color: #5acf89;
 }
 .amount{
     display: flex;
@@ -206,7 +206,7 @@
     border-radius: 15px;
     background-color: rgb(43, 43, 43);
     border: none;
-    color: #09e359;
+    color: #5acf89;
     text-align: center;
     font-size: 1rem;
     padding: 12px 20px;
@@ -377,7 +377,7 @@
 }
 
 .copied {
-    color: green;
+    color: #5acf89;
 }
 
 .click-to-copy-container input {
@@ -422,7 +422,7 @@
 }
 .notification-counter{
     position: absolute;
-    background-color: rgb(2, 148, 2);
+    background-color: #5acf89;
     color: white;
     font-family: 'Poppins';
     display: flex;

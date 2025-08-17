@@ -32,7 +32,7 @@ const Faq = () => {
         id: 5,
         active: false,
         question: 'What cryptocurrencies can I use?',
-        answer: "Copixlab supports a variety of cryptocurrencies for deposits and withdrawals, including Bitcoin (BTC), Tether (USDT), Ethereum (ETH), Solana (SOL), Ripple (XRP), and Dogecoin (DOGE). More options will be added soon to serve you better."
+        answer: "Copixlab supports a variety of cryptocurrencies for deposits and withdrawals, including Bitcoin (BTC), Tether (USDT), Ethereum (ETH), Solana (SOL). More options will be added soon to serve you better."
     }
 
     ])

@@ -72,33 +72,13 @@ const Userdashboardwithdraw = ({route}) => {
       method:'tether(TRC20)',
     },
     {
-      id:7,
-      min:10,
-      max:1000000,
-      image:'/usdc-coin.png',
-      method:'USDC (ETH Network)',
-    },
-    {
       id:4,
       min:10,
       max:1000000,
       image:'/solana.png',
       method:'Solana (SOL) ',
     },
-    {
-      id:5,
-      min:10,
-      max:1000000,
-      image:'/dogecoin-logo.png',
-      method:'Dodgecoin ',
-    },
-    {
-      id:6,
-      min:10,
-      max:1000000,
-      image:'/xrp-icon.png',
-      method:'XRP ',
-    },
+    
   ]
 
     // sweet alert codes 

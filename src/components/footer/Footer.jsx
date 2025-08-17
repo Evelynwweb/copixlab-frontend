@@ -25,7 +25,6 @@ const Footer = () => {
                 <div className="quicklink-card" data-aos="fade-up">
                       <Link to="/faq">faqs</Link>
                       <Link to="/about">why choose us</Link>
-                    <Link to="/buybitcoin">buy bitcoin</Link>
                 </div>
                 <div className="quicklink-card" data-aos="fade-up">
                       <Link to="/faq">forex</Link>

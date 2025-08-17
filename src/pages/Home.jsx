@@ -19,13 +19,13 @@ const Home = () => {
   return (
     <main className='home-img'>
       <Landpage />
+      <Roadmap />
       <CardContainer />
       <Mt5Section />
       <TradersList />
       <TeslaWidgetContainer />
       <Why />
-      <Roadmap />
-      <Plan />
+      
       <Review />
       <CryptoNewsContainer />
       <ForexAnalysisSection />

@@ -54,8 +54,8 @@ function App() {
     }, [])
 
   
-    const route = 'https://copixlab-backend.vercel.app'
-    // const route = 'http://localhost:5000'
+    // const route = 'https://copixlab-backend.vercel.app'
+    const route = 'http://localhost:5000'
   
   return (
     <>
@@ -116,7 +116,7 @@ function App() {
             <Route path='/ranking' element={<UserdashboardRanking route={route}/>}/>
             <Route path='/kyc' element={<UserdashboardKyc route={route} />}/>
             <Route path='/verify' element={<Verify />}/>
-            <Route path='/user/:id' element={<VerifyEmail route={route} />}/>
+            <Route path=':id/verify/:token' element={<VerifyEmail route={route} />}/>
           </Routes>
         </motion.div>
       </Router>

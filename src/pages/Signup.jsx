@@ -270,10 +270,10 @@ useEffect(() => {
           e.preventDefault()
           Signup()
         }}>
-          <img src="/axoncopylogo1.png" alt="" className="signup-logo" onClick={() => {
+          <img src="/copixlogo3.png" alt="" className="signup-logo" onClick={() => {
             navigate('/')
           }} />
-          <span class="subtitle">Get started with Axoncopy, just create an account and enjoy the experience.</span>
+          <span class="subtitle">Get started with Copixlab, just create an account and enjoy the best copytrading experience.</span>
           <div class="input_containers">
             <label class="input_labels" for="email_field">Firstname</label>
             <span className="icont">

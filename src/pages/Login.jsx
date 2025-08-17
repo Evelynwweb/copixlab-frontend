@@ -102,12 +102,12 @@ const Login = ({route}) => {
                     e.preventDefault()
                     login()
                     }}>
-          <img src="/axoncopylogo1.png" alt="" className="login-logo" onClick={() => {
+          <img src="/copixlogo3.png" alt="" className="login-logo" onClick={() => {
             navigate('/')
           }} />
           <div class="title_container">
             <p class="titles">Login to your Account</p>
-            <span class="subtitle">Welcome to Axoncopy, login and enjoy the best investment experience.</span>
+            <span class="subtitle">Welcome to Copixlab, login and enjoy the best copytrading experience.</span>
           </div>
           <br/>
           <div class="input_containers">

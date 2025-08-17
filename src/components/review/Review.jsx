@@ -40,7 +40,7 @@ const Review = () => {
               <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>I've relied on Axoncopy for more than a year now, and the outcome has been remarkable. This platform links me to expert traders whose moves I can mirror automatically. It removes uncertainty from trading and lets my investments grow with ease. With clear transparency and smart tracking tools, I feel completely assured. Among all I've tried, Axoncopy definitely rises above the rest.</p>
+              <p>I've relied on Copixlab for more than a year now, and the outcome has been remarkable. This platform links me to expert traders whose moves I can mirror automatically. It removes uncertainty from trading and lets my investments grow with ease. With clear transparency and smart tracking tools, I feel completely assured. Among all I've tried, Copixlab definitely rises above the rest.</p>
 
               <span className="left-quote">
                 <ImQuotesRight />
@@ -65,7 +65,7 @@ const Review = () => {
              <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Axoncopy has totally transformed how I navigate the markets. I wanted to begin trading but wasn’t sure how to proceed. Their copytrading system, guided by pros, let me tap into the skills of experienced traders without trading directly. I’ve noticed steady growth and feel confident managing my finances, even though I had no previous experience in trading.</p>
+              <p>Copixlab has totally transformed how I navigate the markets. I wanted to begin trading but wasn’t sure how to proceed. Their copytrading system, guided by pros, let me tap into the skills of experienced traders without trading directly. I’ve noticed steady growth and feel confident managing my finances, even though I had no previous experience in trading.</p>
 
               <span className="left-quote">
                 <ImQuotesRight />
@@ -90,7 +90,7 @@ const Review = () => {
               <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Going with Axoncopy has truly been one of my smartest financial choices. Its real-time trade mirroring, paired with a clean interface and transparent analytics, makes it easy to track my account activity. I value the expertise of the traders I follow and the system’s overall consistency. It’s a reliable, professional platform. Definitely a great option for anyone interested.</p>
+              <p>Going with Copixlab has truly been one of my smartest financial choices. Its real-time trade mirroring, paired with a clean interface and transparent analytics, makes it easy to track my account activity. I value the expertise of the traders I follow and the system’s overall consistency. It’s a reliable, professional platform. Definitely a great option for anyone interested.</p>
 
               <span className="left-quote">
                 <ImQuotesRight />
@@ -115,7 +115,7 @@ const Review = () => {
               <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Signing up for Axoncopy has been among the smartest money moves I’ve taken. With live trade syncing, an easy-to-use layout, and insightful data, keeping track of my account is straightforward. I respect the skill level of the traders I mirror and trust the system’s stability. It’s a dependable platform with serious value. Strongly suggest it to anyone looking to grow financially.</p>
+              <p>Signing up for Copixlab has been among the smartest money moves I’ve taken. With live trade syncing, an easy-to-use layout, and insightful data, keeping track of my account is straightforward. I respect the skill level of the traders I mirror and trust the system’s stability. It’s a dependable platform with serious value. Strongly suggest it to anyone looking to grow financially.</p>
 
               <span className="left-quote">
                 <ImQuotesRight />
@@ -140,7 +140,7 @@ const Review = () => {
               <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Using Axoncopy ranks high among my smartest financial choices. Its real-time trade replication, user-friendly design, and detailed insights make monitoring my account effortless. I admire the expertise of the traders I follow and the consistent performance of the platform. It delivers both trust and results. A solid recommendation for anyone ready to take control of their investments.</p>
+              <p>Using Copixlab ranks high among my smartest financial choices. Its real-time trade replication, user-friendly design, and detailed insights make monitoring my account effortless. I admire the expertise of the traders I follow and the consistent performance of the platform. It delivers both trust and results. A solid recommendation for anyone ready to take control of their investments.</p>
 
               <span className="left-quote">
                 <ImQuotesRight />
@@ -165,7 +165,7 @@ const Review = () => {
               <span className='right-quote'>
                 <ImQuotesLeft />
               </span>
-              <p>Opting for Axoncopy has proven to be a standout financial move. The platform excels in live trade syncing, and its intuitive layout paired with straightforward analytics makes tracking my account simple. I value the expertise shown by the traders I mirror and trust the platform’s dependability. It’s a solid solution for anyone looking to build wealth with confidence.</p>
+              <p>Opting for Copixlab has proven to be a standout financial move. The platform excels in live trade syncing, and its intuitive layout paired with straightforward analytics makes tracking my account simple. I value the expertise shown by the traders I mirror and trust the platform’s dependability. It’s a solid solution for anyone looking to build wealth with confidence.</p>
 
               <span className="left-quote">
                 <ImQuotesRight />

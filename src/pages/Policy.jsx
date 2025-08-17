@@ -36,7 +36,7 @@ const Policy = () => {
               Contact Information
               </h3>
               <p>
-              axoncopy is glad to receive your comments concerning this "Privacy Policy". In case you think that axoncopy does not follow the rules and violate this Statement, contact us at axoncopy@gmail.com We guarantee that we will take commercially reasonable efforts to discover and solve the problem.
+              copixlab is glad to receive your comments concerning this "Privacy Policy". In case you think that copixlab does not follow the rules and violate this Statement, contact us at copixlab@gmail.com We guarantee that we will take commercially reasonable efforts to discover and solve the problem.
               </p>
             </div>
       </div>

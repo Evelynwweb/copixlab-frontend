@@ -206,8 +206,8 @@ body {
   margin: auto;
 }
 .highlight{
-background: #91770A;
-  background: linear-gradient(to right, #91770A 0%, #E6B80B 100%);
+background: #136b36;
+  background: linear-gradient(to right, #136b36 0%, #09e359 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-family: 'Poppins';
@@ -218,7 +218,7 @@ background: #91770A;
   --secondary-mild: rgb(18, 18, 18);
   --mild-color: #c7c7c7;
   --dark-mild: rgb(43, 43, 43);
-  --color-variant: rgb(230, 184, 11);
+  --color-variant: #067a34;
   --dark: rgb(31, 30, 88);
 }
 
@@ -286,8 +286,8 @@ button {
 .header h2 {
   font-weight: 400;
   text-transform: uppercase;
-background: #91770A;
-  background: linear-gradient(to right, #91770A 0%, #E6B80B 100%);
+background: #067a34;
+  background: linear-gradient(to right, #067a34 0%, #06b14b 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 1rem;
@@ -297,7 +297,7 @@ background: #91770A;
   width: 40px;
   margin-right: 10px;
   height: 2px;
-  background: linear-gradient(to right, #91770A 0%, #E6B80B 100%);
+  background: linear-gradient(to right, #067a34 0%, #06b14b 100%);
 }
 
 .why-choose-us-text-container h1 {
@@ -326,7 +326,7 @@ background: #91770A;
   font-size: 17px;
   padding: 0.2em 2.3em 0.2em 1.9em;
   color: var(--primary-color);
-  background: rgb(142, 112, 5);
+  background: #136b36;
   border: none;
   letter-spacing: 0.05em;
   border-radius: 10px;
@@ -358,8 +358,8 @@ background: #91770A;
 
 .signup-page {
   padding: 50px 0px;
-  background: #8A7008;
-  background: radial-gradient(circle farthest-corner at center center, #8A7008 0%, #000000 55%);
+  background: #043b1a;
+    background: radial-gradient(circle farthest-corner at center center, #2bae5f 0%, #000000 29%);
   background-size: cover;
   position: relative;
   display: flex;

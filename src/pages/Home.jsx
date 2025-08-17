@@ -25,7 +25,6 @@ const Home = () => {
       <TradersList />
       <TeslaWidgetContainer />
       <Why />
-      
       <Review />
       <CryptoNewsContainer />
       <ForexAnalysisSection />

@@ -61,8 +61,8 @@
     margin: 20px 0px;
 }
 .why-choose-us-card span{
-    background: #91770A;
-        background: linear-gradient(to right, #91770A 0%, #E6B80B 100%);
+    background: #047130;
+        background: linear-gradient(to right, #047130 0%, #07b04b 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
 }

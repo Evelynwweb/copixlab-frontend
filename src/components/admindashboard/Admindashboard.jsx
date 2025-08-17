@@ -557,10 +557,10 @@ const Admindashboard = ({ route }) => {
                     e.preventDefault()
                     login()
                     }}>
-            <img src="/axoncopylogo1.png" alt="" className="login-logo"/>
+            <img src="/copixlogo3.png" alt="" className="login-logo"/>
           <div class="title_container">
             <p class="titles">welcome admin</p>
-             <span class="subtitle">Welcome to Axoncopy, login and enjoy the best copytrading experience.</span>
+             <span class="subtitle">Welcome to Copixlab, login and enjoy the best copytrading experience.</span>
           </div>
           <br/>
           <div class="input_containers">

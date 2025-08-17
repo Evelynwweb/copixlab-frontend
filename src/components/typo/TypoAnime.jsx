@@ -14,7 +14,7 @@ const TypoAnime = () => {
       ]}
       wrapper="span"
       speed={50}
-      style={{ display: 'block',fontFamily:"poppins",color:'rgb(230, 184, 11)', fontWeight:400 }}
+      style={{ display: 'block',fontFamily:"poppins",color:'#2bae5f', fontWeight:400 }}
       repeat={Infinity}
     />
   )

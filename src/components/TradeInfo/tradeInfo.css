@@ -39,7 +39,7 @@
 }
 .forex-card .img svg{
     font-size: 3rem;
-    color: #8A7008;
+    color: var(--color-variant);
 }
 .forex-card:hover >.img {
     transition: 0.5s ease-in-out;

@@ -21,7 +21,6 @@
   justify-content: space-around;
   margin: auto;
   background: #000000;
-    background: radial-gradient(circle farthest-corner at top left, #000000 46%, #3C370B 75%);
 }
 
 .landpage-text-container {
@@ -65,7 +64,7 @@
   border-radius: 0.8em;
   cursor: pointer;
   border: none;
-  background: linear-gradient(to right, rgb(103, 88, 31), rgb(142, 112, 5));
+  background: linear-gradient(to right, #043b1a, #055d28);
   color: ghostwhite;
   overflow: hidden;
   font-family: "Palanquin",
@@ -106,7 +105,7 @@
 
 .cssbuttons-io::before {
   content: "";
-  background: rgb(142, 112, 5);
+  background: #136b36;
   width: 120%;
   left: -10%;
   transform: skew(30deg);

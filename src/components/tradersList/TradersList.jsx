@@ -8,7 +8,7 @@ const TradersList = () => {
       <div className="traderListSectionWrapper">
         <div className="videoframe-text-container" data-aos="fade-up">
           <h1>More than 1000  <span className="highlight">traders </span></h1>
-          <p>to choose from in Interactive Axoncopy</p>
+          <p>to choose from in Interactive Copixlab</p>
         </div>
         <div className="traderListSectionCardContainer" data-aos="fade-up">
 

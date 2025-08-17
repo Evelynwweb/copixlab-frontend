@@ -46,21 +46,21 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    background: rgb(18, 18, 18);
+    background: rgb(0, 0, 0);
     border-radius: 20px;
     flex-direction: column;
     padding: 20px;
     cursor: pointer;
-    border: 1px solid rgb(18, 18, 18);
+    border: 1px solid #067a34;
     transition:all 0.2s  ease-in;
     margin: 15px;
 }
 .cardSectionCard:hover{
-    border: 1px solid rgb(98, 98, 98);
+    border: 1px solid #07b04b;
 }
 .cardSectionCardSvg{
     align-self: flex-start;
-    background-color: rgba(126, 96, 24, 0.634);
+    background-color: #067e36;
     padding: 10px;
     border-radius: 10px;
     display: flex;

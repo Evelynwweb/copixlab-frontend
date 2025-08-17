@@ -62,7 +62,7 @@ const VerifyEmail = ({route}) => {
            loader && <Loader />
             }
             {
-                validUrl ? <p>email verified</p> : <p>email unverified</p>
+                validUrl ? <p>email verified</p> : <p>verification link has expired</p>
             }
     </>    
   )

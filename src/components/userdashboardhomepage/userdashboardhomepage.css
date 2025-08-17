@@ -20,8 +20,6 @@
     overflow: auto;
     position: relative;
     flex-direction: column;
-    /* border: 2px solid green;
-    padding: 10px; */
 }
 
 .dashboardheaderwrapper {
@@ -111,7 +109,7 @@
     cursor: pointer;
 }
 .notification-card p a{
-    color: #E6B80B;
+    color: #09e359;
     margin: 0px 10px;
 }
 .dashboard-overview-container{
@@ -149,7 +147,7 @@
     align-self: flex-start;
 }
 .main-balance{
-    color: #E6B80B;
+    color: #09e359;
 }
 .amount{
     display: flex;
@@ -208,7 +206,7 @@
     border-radius: 15px;
     background-color: rgb(43, 43, 43);
     border: none;
-    color: #E6B80B;
+    color: #09e359;
     text-align: center;
     font-size: 1rem;
     padding: 12px 20px;
@@ -424,7 +422,7 @@
 }
 .notification-counter{
     position: absolute;
-    background-color: red;
+    background-color: rgb(2, 148, 2);
     color: white;
     font-family: 'Poppins';
     display: flex;

@@ -10,7 +10,7 @@ const Mt5Section = () => {
             <div className="why-choose-us-text-container about-text copy-trade-text mt5-text">
                 <h1 data-aos="fade-up">Start <span className="highlight">copying </span>& start   <span className="highlight">earning </span></h1>
                 <p data-aos="fade-up">
-                Experience the sheer brilliance of Mirrorcaps Trading - a revolutionary platform that effortlessly mirrors the success of profitable traders and lets you copy successful strategies or provide your own strategy to others to be copied and profit from that.
+                Experience the sheer brilliance of Copixlab Trading - a revolutionary platform that effortlessly mirrors the success of profitable traders and lets you copy successful strategies or provide your own strategy to others to be copied and profit from that.
               </p>
               <button className="launch-btn cssbuttons-io" data-aos="fade-up" onClick={()=>{
                         navigate('/signup')

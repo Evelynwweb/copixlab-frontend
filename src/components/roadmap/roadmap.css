@@ -6,9 +6,8 @@
     align-items: center;
     flex-direction: column;
     padding: 50px 0px 150px 0px;
-background: #8A7008;
-    background: radial-gradient(circle farthest-corner at center center, #8A7008 1%, #000000 31%);
-    background-position: center;
+background: #043b1a;
+    background: radial-gradient(circle farthest-corner at center center, #2bae5f 0%, #000000 29%);
 }
 .rodmapWrapper{
     width: 90%;
@@ -41,10 +40,7 @@ justify-content: flex-start;
 }
 .roadmapCounter h1{
     font-size: 8rem;
-    background: #91770A;
-        background: linear-gradient(to right, #91770A 0%, #E6B80B 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    color: #109b47;
     align-self: flex-start;
     font-family: "Palanquin",'Poppins',sans-serif;
     margin-bottom: auto;
@@ -65,7 +61,7 @@ justify-content: flex-start;
     font-size: .9rem;
 }
 .roadmapSvgContainer{
-    color: #E6B80B;
+    color: #56D187;
     font-size: 3.5rem;
 }
 @media (max-width: 990px) and (min-width: 768px) {

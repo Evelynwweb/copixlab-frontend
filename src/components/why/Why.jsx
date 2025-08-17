@@ -20,7 +20,7 @@ const Why = () => {
                 <span className="header-line"></span>
                 <h2>our comprehensive features</h2>
             </div>
-            <h1 data-aos="fade-up">Axoncopy</h1>
+            <h1 data-aos="fade-up">Copixlab</h1>
             <p data-aos="fade-up">the following are our comprehensive features.</p>
             </div>
             <div className="why-choose-us-card" data-aos="fade-up">

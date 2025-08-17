@@ -7,20 +7,20 @@ const Faq = () => {
         {
         id: 1,
         active: true,
-        question: 'What is Axoncopy?',
-        answer: "Axoncopy is a professional copytrading platform that allows users to mirror real-time trades from seasoned, expert traders. It gives you access to global financial markets—like forex, stocks, indices, and crypto—using proven strategies such as scalping, swing trading, and trend following. It's a smart way to grow your portfolio without having to trade manually."
+        question: 'What is Copixlab?',
+        answer: "Copixlab is a professional copytrading platform that allows users to mirror real-time trades from seasoned, expert traders. It gives you access to global financial markets—like forex, stocks, indices, and crypto—using proven strategies such as scalping, swing trading, and trend following. It's a smart way to grow your portfolio without having to trade manually."
     },
     {
         id: 2,
         active: false,
         question: 'Where does the copytrading activity go into?',
-        answer: "All trading activity on Axoncopy is executed by experienced traders in high-liquidity markets such as forex, cryptocurrencies, stock CFDs, and major indices. These markets are carefully selected for their volatility, trading volume, and potential for consistent profits. Our traders utilize advanced technical and fundamental analysis to generate steady returns."
+        answer: "All trading activity on Copixlab is executed by experienced traders in high-liquidity markets such as forex, cryptocurrencies, stock CFDs, and major indices. These markets are carefully selected for their volatility, trading volume, and potential for consistent profits. Our traders utilize advanced technical and fundamental analysis to generate steady returns."
     },
     {
         id: 3,
         active: false,
         question: 'What are the advantages of joining this platform?',
-        answer: "When you join Axoncopy, your trades are automatically handled by trading professionals with years of real-market experience. They analyze trends, identify entry/exit points, and execute trades using strategies tailored to current market conditions. You gain all the benefits of expert-level trading without needing to lift a finger."
+        answer: "When you join Copixlab, your trades are automatically handled by trading professionals with years of real-market experience. They analyze trends, identify entry/exit points, and execute trades using strategies tailored to current market conditions. You gain all the benefits of expert-level trading without needing to lift a finger."
     },
     {
         id: 4,
@@ -32,7 +32,7 @@ const Faq = () => {
         id: 5,
         active: false,
         question: 'What cryptocurrencies can I use?',
-        answer: "Axoncopy supports a variety of cryptocurrencies for deposits and withdrawals, including Bitcoin (BTC), Tether (USDT), Ethereum (ETH), Solana (SOL), Ripple (XRP), and Dogecoin (DOGE). More options will be added soon to serve you better."
+        answer: "Copixlab supports a variety of cryptocurrencies for deposits and withdrawals, including Bitcoin (BTC), Tether (USDT), Ethereum (ETH), Solana (SOL), Ripple (XRP), and Dogecoin (DOGE). More options will be added soon to serve you better."
     }
 
     ])
@@ -52,7 +52,7 @@ const Faq = () => {
                 </div>
                 <h1 data-aos="fade-up">frequently asked questions</h1>
                 {/* <p data-aos="fade-up">
-                We’ve provided some information about Axoncopy, Axoncopy Plans, cryptocurrencies, and few other common questions you might want to ask. If you have any other questions, contact our live support system or email address.
+                We’ve provided some information about Copixlab, Copixlab Plans, cryptocurrencies, and few other common questions you might want to ask. If you have any other questions, contact our live support system or email address.
                 </p> */}
             </div>
         </div>

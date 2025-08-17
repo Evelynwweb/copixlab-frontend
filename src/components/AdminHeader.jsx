@@ -74,7 +74,7 @@ const AdminHeader = ({route,openCreateTrader,openTraderLogs,openUsers}) => {
                     </span>
                     <span className="dropdown-user-details">
                         <p className='dropdown-name'>{userData ? userData.firstname : 'john doe'}</p>
-                        <p className='dropdown-email'>{userData ? userData.email : 'kelvinchukwuebuka385#gmail.com'}</p>
+                        <p className='dropdown-email'>{userData ? userData.email : 'johndoe#gmail.com'}</p>
                     </span>
                 </div>
                 
@@ -139,7 +139,7 @@ const AdminHeader = ({route,openCreateTrader,openTraderLogs,openUsers}) => {
         }
         <aside  className='userdashboard-sidebar'>
               <div className="dashboard-logo-container">
-                  <img src="/axoncopylogo1.png" alt="" className="dashboard-logo"/>
+                  <img src="/copixlogo3.png" alt="" className="dashboard-logo"/>
             </div>
             <div className='dashboard-links-container'>
                   <li className="dashboard-links" onClick={()=> openUsers()}>

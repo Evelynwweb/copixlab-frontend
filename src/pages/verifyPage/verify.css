@@ -18,6 +18,12 @@
 .verifyPageTextWrapper button{
     cursor: pointer;
 }
+.verifyPageTextWrapper a{
+    padding: 10px 30px ;
+    color: white;
+    text-transform: capitalize;
+    background-color: aquamarine;
+}
 .verifyPageTextWrapper p{
     margin: 15px 0px;
 }

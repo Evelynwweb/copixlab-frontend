@@ -6,7 +6,7 @@ import {BsEye,BsEyeSlash} from 'react-icons/bs'
 import { useState,useEffect } from 'react'
 import Swal from 'sweetalert2'
 import Loader from '../components/Loader'
-import { IoMdClose } from "react-icons/io";
+import { SlPhone } from 'react-icons/sl'
 
 const Signup = ({route}) => {
   const navigate = useNavigate()
@@ -136,6 +136,7 @@ useEffect(() => {
             template_params: {
               'name': `${result.name}`,
               'email': `${result.email}`,
+              'verificationLink':`${result.verificationLink}`
             }
           };
 
@@ -322,7 +323,7 @@ useEffect(() => {
                 </span>
                 <input onChange={(e)=>{
                         setPhoneNumber(e.target.value.trim())
-                      }} value={phone} placeholder="+44" title="Inpit title" name="input-name" type="tel" class="input_field" id="phone_field" required/>
+                      }} value={phoneNumber} placeholder="+44" title="Inpit title" name="input-name" type="tel" class="input_field" id="phone_field" required/>
           </div>
           <div class="input_containers">
             <label class="input_labels" for="password_field">Password</label>

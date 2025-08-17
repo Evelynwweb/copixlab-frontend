@@ -43,7 +43,10 @@ const VerifyEmail = ({route}) => {
                     const res = await req.json()
                     console.log(res)
                     setLoader(false)
-                    setValidUrl(true)
+                    if (res.status === 200) {
+                        setValidUrl(true)
+                    }
+                    
                 } catch (error) {
                     console.log(error)
                     setValidUrl(false)

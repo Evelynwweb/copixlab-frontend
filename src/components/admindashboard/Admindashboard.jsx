@@ -21,6 +21,46 @@ import {GiReceiveMoney} from 'react-icons/gi'
 import { RxDashboard } from 'react-icons/rx'
 import {AiOutlineClose} from 'react-icons/ai'
 const Admindashboard = ({ route }) => {
+
+    const fetchTraders = async () => {
+    const req = await fetch(`${route}/api/fetchTraders`,{
+      headers:{
+        'Content-Type':'application/json'
+      }
+    })
+    const res = await req.json()
+    setLoader(false)
+    if(res.status === 200){
+      setTraders(res.traders)
+      
+    }
+    else{
+      setTraders([])
+    }
+  }
+
+  const fetchUsers = async ()=>{
+    const req = await fetch(`${route}/api/getUsers`,{
+      headers:{
+        'Content-Type':'application/json'
+      }
+    })
+    const res = await req.json()
+    
+    setLoader(false)
+    if(res){
+      setUsers(res)
+    }
+    else{
+      setUsers([])
+    }
+  }
+  
+  useEffect(()=>{
+    setLoader(true)  
+    fetchUsers()
+    fetchTraders()
+  },[])
   
    // sweet alert function 
    const Toast = Swal.mixin({
@@ -109,8 +149,9 @@ const Admindashboard = ({ route }) => {
         ])
       }
            
-        setEmail('')
-        setUserAmount('')
+      setEmail('')
+      setUserAmount('')
+      fetchUsers()
   }
   else{
     Toast.fire({
@@ -162,7 +203,8 @@ const Admindashboard = ({ route }) => {
             body: JSON.stringify(data), 
             })
         setEmail('')
-        setUserAmount('')
+      setUserAmount('')
+      fetchUsers()
   }
   else{
     Toast.fire({
@@ -284,45 +326,7 @@ const Admindashboard = ({ route }) => {
     setShowTraderLogs(false)
     setShowUsers(true)
   }
-  const fetchTraders = async () => {
-    const req = await fetch(`${route}/api/fetchTraders`,{
-      headers:{
-        'Content-Type':'application/json'
-      }
-    })
-    const res = await req.json()
-    setLoader(false)
-    if(res.status === 200){
-      setTraders(res.traders)
-      
-    }
-    else{
-      setTraders([])
-    }
-  }
 
-  const fetchUsers = async ()=>{
-    const req = await fetch(`${route}/api/getUsers`,{
-      headers:{
-        'Content-Type':'application/json'
-      }
-    })
-    const res = await req.json()
-    
-    setLoader(false)
-    if(res){
-      setUsers(res)
-    }
-    else{
-      setUsers([])
-    }
-  }
-  
-  useEffect(()=>{
-    setLoader(true)  
-    fetchUsers()
-    fetchTraders()
-  },[])
 
   const upgradeUser = async () => {
 

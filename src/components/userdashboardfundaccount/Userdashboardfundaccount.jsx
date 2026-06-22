@@ -49,14 +49,6 @@ const Userdashboardfundaccount = ({route}) => {
       wallet:'TGG89vM62Rfh1Qc92uNCcCBXEaYP5MKajt'
     },
     {
-      id:4,
-      min:1000,
-      max:1000,
-      image:'/solana.png',
-      method:'Solana (SOL) ',
-      wallet:'BK9b38YEvVka6Etz58ud7PT3m9uv6yKzwXJDCjjkW6EK'
-    },
-    {
       id:3,
       min:1000,
       max:1000,
